@@ -1,19 +1,22 @@
 # Contributing
 
-This repository accepts contributions for public documentation, roadmap clarity, and issue quality.
+OctantOS is currently in closed-source development for core runtime components.
 
-## Before Opening an Issue
+We plan to open-source selected components as interfaces and architecture boundaries stabilize.
 
-- Search for existing issues
-- Include reproduction steps when reporting problems
-- Keep requests focused on user-visible behavior
+## How You Can Contribute Today
+
+- File high-quality issues with clear reproduction details
+- Propose documentation improvements and clarifications
+- Share threat-model questions and deployment requirements
+- Express interest in early testing and beta participation
 
 ## Pull Requests
 
-PRs are limited to documentation and public repo metadata.
+This repository accepts documentation and public-information PRs.
 
 ## Not Accepted Here
 
-- Source code changes for private components
-- Internal architecture details not intended for public release
-- Sensitive operational or security implementation specifics
+- Private runtime source code changes
+- Sensitive operational implementation details
+- Uncoordinated security disclosures (use `SECURITY.md`)

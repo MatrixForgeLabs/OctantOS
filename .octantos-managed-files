@@ -7,3 +7,10 @@ CONTRIBUTING.md
 .github/ISSUE_TEMPLATE/bug_report.md
 .github/ISSUE_TEMPLATE/feature_request.md
 .github/pull_request_template.md
+docs/architecture-overview.md
+docs/security-model.md
+docs/capability-manifests.md
+docs/agent-lifecycle.md
+docs/single-binary.md
+assets/layer-model.mmd
+assets/boot-sequence.mmd

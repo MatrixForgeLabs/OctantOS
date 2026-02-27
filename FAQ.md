@@ -1,13 +1,16 @@
 # FAQ
 
 ## Is this the source code repository?
-No. This repository only contains public information and community docs.
+No. This is the public architecture and updates repository. Implementation source remains private at this stage.
 
-## Where should I report bugs?
-Open an Issue with reproduction details and expected vs actual behavior.
+## Is it really one binary?
+Yes. OctantOS is built around a single static multicall binary architecture.
 
-## How do I report security issues?
-Do not open a public issue. Use the process in `SECURITY.md`.
+## Why not just run Docker plus OpenClaw?
+Containerization alone does not define a complete agent OS threat model. OctantOS is designed around kernel-enforced boundaries, signed capability controls, and audit-first lifecycle governance.
 
-## Can I contribute code here?
-This repository is documentation-only. Contribution guidance is in `CONTRIBUTING.md`.
+## How is this different from a hardened Linux distro?
+OctantOS is not only a hardened base image. It is an integrated agent runtime architecture with capability manifests, service orchestration, policy enforcement, and governance primitives designed as one system.
+
+## When can I try it?
+Public updates are posted in this repository. Early access and beta information will be announced as rollout milestones are met.

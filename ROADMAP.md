@@ -1,23 +1,31 @@
 # Roadmap
 
-This roadmap tracks themes, not internal implementation details.
+Public roadmap is organized by capability bands and progress, not implementation internals.
 
-## Near Term
+## Current Focus
 
-- Improve install and onboarding experience
-- Expand documentation coverage for operators and developers
-- Increase reliability and observability at the platform level
+### Runtime and Security Hardening (85%)
 
-## Mid Term
+- [x] Core runtime and multicall architecture
+- [x] Baseline capability enforcement
+- [x] Namespace/seccomp/cgroup integration
+- [ ] Additional hardening and validation coverage
 
-- Strengthen multi-node and edge deployment workflows
-- Improve upgrade and rollback ergonomics
-- Expand integration options for external systems
+### Platform Services (80%)
 
-## Long Term
+- [x] Vault, router, search, context, quorum, inference foundations
+- [x] Matrix-based communication substrate
+- [ ] Operational and scaling refinements
 
-- Harden platform security and policy controls
-- Expand ecosystem tooling and extension points
-- Improve performance consistency under mixed workloads
+### Developer and Operator Experience (70%)
 
-Roadmap items may change as priorities evolve.
+- [x] Core shell and administration controls
+- [x] Audit and governance surfaces
+- [ ] Expanded diagnostics and deployment ergonomics
+
+## Planned
+
+- Deeper policy tooling and simulation
+- Expanded deployment profiles and topology guides
+- Broader connector and integration ecosystem
+- Structured early-access and beta onboarding

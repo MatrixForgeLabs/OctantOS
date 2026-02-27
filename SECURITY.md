@@ -2,22 +2,26 @@
 
 ## Reporting a Vulnerability
 
-Please do not disclose vulnerabilities publicly before coordinated remediation.
+Do not disclose vulnerabilities publicly before coordinated remediation.
 
-Send reports to: security@matrixforge.com
+Report to: `security@matrixforge.com`
 
 Include:
 
-- Affected component or feature
-- Reproduction steps
-- Impact assessment
-- Any proof-of-concept details
+- affected component or workflow
+- reproduction steps
+- impact assessment
+- proof-of-concept details (if available)
 
 ## Response Targets
 
 - Initial acknowledgment: within 3 business days
-- Status updates: at least weekly while triaging/remediating
+- Ongoing status: at least weekly during active triage
+
+## Scope
+
+This repository is documentation-only, but reports related to OctantOS architecture, behavior, and deployment security are in scope.
 
 ## Safe Harbor
 
-Good-faith research and responsible disclosure are welcomed.
+Good-faith security research and responsible disclosure are welcomed.

@@ -1,8 +1,16 @@
 # Changelog
 
-All notable user-facing changes for the public OctantOS stream are listed here.
+All notable public-facing changes are documented in this file.
 
-## Unreleased
+## 2026-02-27
 
-- Initial public information repository created
-- Baseline docs for roadmap, FAQ, security, and contribution process
+- Repositioned repository as public architecture and security hub
+- Added full public docs set:
+  - `docs/architecture-overview.md`
+  - `docs/security-model.md`
+  - `docs/capability-manifests.md`
+  - `docs/agent-lifecycle.md`
+  - `docs/single-binary.md`
+- Expanded README with architecture stack, differentiation, and comparison table
+- Added Mermaid-ready diagrams in `assets/`
+- Updated roadmap, FAQ, and contribution posture for early public engagement
