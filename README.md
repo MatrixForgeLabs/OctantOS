@@ -4,12 +4,15 @@
 
 ## At A Glance
 
-- **~19MB** statically linked Rust binary
-- **8 services boot in ~83ms** from `FROM scratch`
-- **10-layer defense stack**, kernel-enforced
-- **100,000+ lines** of production Rust
-- **190+ search engines** with zero external search API leakage
-- **7 LLM providers** with intelligent routing and failover
+- **~23MB** statically linked Rust binary for the full OS runtime
+- **8 core services in ~83ms** from `FROM scratch`
+- **125k+ lines of first-party Rust**
+- **50 Rust packages** in one workspace (dozens of focused crates)
+- **10-layer defense stack** with kernel-enforced isolation
+- **Firecracker microVM isolation** integrated into agent execution paths
+- **190+ self-contained search engines** with no external API query leakage
+- **7 LLM providers** with intelligent routing, fallback, and policy control
+- **81 multicall utilities** shipped in the same binary
 - **Built by 1 developer in ~3 months**
 
 ## Architecture Stack
